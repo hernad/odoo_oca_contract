@@ -84,6 +84,11 @@ msgid ""
 msgstr ""
 
 #. module: contract
+msgid "Contracts Management - Recurring"
+msgstr "Upravljanje govorima - Periodični"
+
+
+#. module: contract
 #: model:mail.template,subject:contract.email_contract_template
 msgid "${object.company_id.name} Contract (Ref ${object.name or 'n/a'})"
 msgstr ""
@@ -182,12 +187,12 @@ msgstr ""
 #. module: contract
 #: model:ir.actions.act_window,help:contract.action_account_analytic_overdue_all
 msgid "Click to create a new contract."
-msgstr ""
+msgstr "Klik za kreiranje novog ugovora"
 
 #. module: contract
 #: model:ir.model,name:contract.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "Preduzeća"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_company_id
@@ -241,7 +246,7 @@ msgstr ""
 #: model:ir.ui.menu,name:contract.menu_config_contract
 #: model:ir.ui.view,arch_db:contract.view_partner_form
 msgid "Contracts"
-msgstr ""
+msgstr "Ugovori"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account_create_invoice_visibility
