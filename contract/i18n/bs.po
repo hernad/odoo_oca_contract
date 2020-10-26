@@ -288,7 +288,7 @@ msgstr ""
 #: selection:account.analytic.account,recurring_rule_type:0
 #: selection:account.analytic.contract,recurring_rule_type:0
 msgid "Day(s)"
-msgstr ""
+msgstr "Dan(a)"
 
 #. module: contract
 #: model:ir.model.fields,help:contract.field_res_company_contract_pregenerate_days
@@ -313,13 +313,13 @@ msgstr "Opis"
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_discount
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_discount
 msgid "Discount (%)"
-msgstr ""
+msgstr "Popust (%)"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_contract_line.py:127
 #, python-format
 msgid "Discount should be less or equal to 100"
-msgstr ""
+msgstr "Popust mora biti manji ili jednak 100"
 
 #. module: contract
 #: model:ir.model.fields,help:contract.field_account_analytic_contract_line_discount
@@ -328,23 +328,25 @@ msgid ""
 "Discount that is applied in generated invoices. It should be less or equal "
 "to 100"
 msgstr ""
+"Popust koji se primjenjuje u generisanim računima. Trebao bi biti manji ili jednak"
+"od 100"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_display_name
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_display_name
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Ime za prikaz"
 
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.view_account_analytic_account_contract_search
 msgid "Finished"
-msgstr ""
+msgstr "Završen"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account_recurring_invoices
 msgid "Generate recurring invoices automatically"
-msgstr ""
+msgstr "Generišite periodične fakture automatski"
 
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.view_account_analytic_account_contract_search
@@ -370,72 +372,72 @@ msgstr ""
 #. module: contract
 #: model:ir.model,name:contract.model_account_invoice
 msgid "Invoice"
-msgstr ""
+msgstr "Faktura"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account_recurring_invoice_line_ids
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_recurring_invoice_line_ids
 #: model:ir.ui.view,arch_db:contract.account_analytic_contract_view_form
 msgid "Invoice Lines"
-msgstr ""
+msgstr "Stavke fakture"
 
 #. module: contract
 #: model:ir.actions.act_window,name:contract.act_recurring_invoices
 msgid "Invoices"
-msgstr ""
+msgstr "Fakture"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account_recurring_invoicing_type
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_recurring_invoicing_type
 #: model:ir.ui.view,arch_db:contract.account_analytic_contract_view_search
 msgid "Invoicing type"
-msgstr ""
+msgstr "Tip fakture"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account_journal_id
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_journal_id
 #: model:ir.ui.view,arch_db:contract.account_analytic_contract_view_search
 msgid "Journal"
-msgstr ""
+msgstr "Dnevnik glavne knjige"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract___last_update
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line___last_update
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line___last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Posljednja promjena"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_write_uid
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_write_uid
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Posljednje ažuriranje od"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_write_date
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_write_date
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Posljednje ažuriranje na"
 
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.account_analytic_account_recurring_form_form
 #: model:ir.ui.view,arch_db:contract.account_analytic_contract_view_form
 msgid "Legend (for the markers inside invoice lines description)"
-msgstr ""
+msgstr "Legenda (za marekere unutar opisa stavki fakture"
 
 #. module: contract
 #: selection:account.analytic.account,recurring_rule_type:0
 #: selection:account.analytic.contract,recurring_rule_type:0
 msgid "Month(s)"
-msgstr ""
+msgstr "Mjesec(i)"
 
 #. module: contract
 #: selection:account.analytic.account,recurring_rule_type:0
 #: selection:account.analytic.contract,recurring_rule_type:0
 msgid "Month(s) last day"
-msgstr ""
+msgstr "Zadnji dan u mjesecu"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_name
@@ -445,66 +447,66 @@ msgstr "Naziv"
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.view_account_analytic_account_contract_search
 msgid "Next Invoice"
-msgstr ""
+msgstr "Sljedeća Faktura"
 
 #. module: contract
 #: model:ir.model,name:contract.model_res_partner
 msgid "Partner"
-msgstr ""
+msgstr "Partner"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_partner_id
 msgid "Partner (always False)"
-msgstr ""
+msgstr "Partner (uvijek netačno)"
 
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.view_account_analytic_account_contract_search
 msgid "Partner and dependents"
-msgstr ""
+msgstr "Partner i ovisni o partneru"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_account.py:233
 #, python-format
 msgid "Please define a sale journal for the company '%s'."
-msgstr ""
+msgstr "Molimo definirajte dnevnik glavne knjige za prodaju u preduzeću '%s'."
 
 #. module: contract
 #: selection:account.analytic.account,recurring_invoicing_type:0
 #: selection:account.analytic.contract,recurring_invoicing_type:0
 msgid "Post-paid"
-msgstr ""
+msgstr "Naknadno plaćanje"
 
 #. module: contract
 #: selection:account.analytic.account,recurring_invoicing_type:0
 #: selection:account.analytic.contract,recurring_invoicing_type:0
 msgid "Pre-paid"
-msgstr ""
+msgstr "Pretplata"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account_pricelist_id
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_pricelist_id
 #: model:ir.ui.view,arch_db:contract.account_analytic_contract_view_search
 msgid "Pricelist"
-msgstr ""
+msgstr "Cjenovnik"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_product_id
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_product_id
 msgid "Product"
-msgstr ""
+msgstr "Proizvod"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_quantity
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_quantity
 msgid "Quantity"
-msgstr ""
+msgstr "Količina"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account_recurring_rule_type
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_recurring_rule_type
 #: model:ir.ui.view,arch_db:contract.account_analytic_contract_view_search
 msgid "Recurrence"
-msgstr ""
+msgstr "Ponavljanje"
 
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.account_analytic_account_recurring_form_form
@@ -532,7 +534,7 @@ msgstr "Odgovoran"
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.account_analytic_account_recurring_form_form
 msgid "Send by Email"
-msgstr ""
+msgstr "Poslano email-om"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_sequence
@@ -555,7 +557,7 @@ msgstr "Prikaz ugovora za ovog partnera"
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_specific_price
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_specific_price
 msgid "Specific Price"
-msgstr ""
+msgstr "Specifična cijena"
 
 #. module: contract
 #: model:ir.model.fields,help:contract.field_account_analytic_account_recurring_rule_type
@@ -573,41 +575,41 @@ msgstr "Navedite je li datum procesa 'od' ili 'do' datum fakturiranja"
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_price_subtotal
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_price_subtotal
 msgid "Sub Total"
-msgstr ""
+msgstr "Ukupno"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_price_unit
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_price_unit
 msgid "Unit Price"
-msgstr ""
+msgstr "Jedinična cijena"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_uom_id
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_uom_id
 msgid "Unit of Measure"
-msgstr ""
+msgstr "Jedinica mjere"
 
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.report_contract_document
 msgid "VAT:"
-msgstr ""
+msgstr "PDV:"
 
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.view_account_analytic_account_contract_search
 msgid "Valid"
-msgstr ""
+msgstr "Potvrđeno"
 
 #. module: contract
 #: selection:account.analytic.account,recurring_rule_type:0
 #: selection:account.analytic.contract,recurring_rule_type:0
 msgid "Week(s)"
-msgstr ""
+msgstr "Hefta(e)"
 
 #. module: contract
 #: selection:account.analytic.account,recurring_rule_type:0
 #: selection:account.analytic.contract,recurring_rule_type:0
 msgid "Year(s)"
-msgstr ""
+msgstr "Godina(e)"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_account.py:117
@@ -615,12 +617,13 @@ msgstr ""
 msgid ""
 "You can't have a next invoicing date before the start of the contract '%s'"
 msgstr ""
+"Ne možete imati sljedeći datum faktusiranja prije početka ugovora '%s'"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_account.py:225
 #, python-format
 msgid "You must first select a Customer for Contract %s!"
-msgstr ""
+msgstr "Prvo morate odabrati kupca za ugovor %s!"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_account.py:315
@@ -629,6 +632,8 @@ msgid ""
 "You must review start and end dates!\n"
 "%s"
 msgstr ""
+"Morate pogledati početni i kranji datum!\n"
+"%s"
 
 #. module: contract
 #: code:addons/contract/models/account_analytic_account.py:108
@@ -661,4 +666,4 @@ msgstr ""
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.account_analytic_account_recurring_form_form
 msgid "⇒ Show recurring invoices"
-msgstr ""
+msgstr "⇒ Prikaz periodičnih faktura"
