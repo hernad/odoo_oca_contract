@@ -342,7 +342,7 @@ msgstr ""
 #. module: website_portal_contract
 #: model:ir.model.fields,field_description:website_portal_contract.field_account_analytic_contract_template_website_description
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #. module: website_portal_contract
 #: model:account.analytic.contract.template,website_description:website_portal_contract.website_contract_template_default

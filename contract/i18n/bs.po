@@ -83,10 +83,6 @@ msgid ""
 "        "
 msgstr ""
 
-#. module: contract
-msgid "Contracts Management - Recurring"
-msgstr "Upravljanje govorima - Periodični"
-
 
 #. module: contract
 #: model:mail.template,subject:contract.email_contract_template
@@ -311,7 +307,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_name
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_name
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_discount
@@ -514,24 +510,24 @@ msgstr ""
 #: model:ir.ui.view,arch_db:contract.account_analytic_account_recurring_form_form
 #: model:ir.ui.view,arch_db:contract.view_account_analytic_account_contract_search
 msgid "Recurring Invoices"
-msgstr ""
+msgstr "Periodične fakture"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account_recurring_interval
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_recurring_interval
 msgid "Repeat Every"
-msgstr ""
+msgstr "Ponovi svakih"
 
 #. module: contract
 #: model:ir.model.fields,help:contract.field_account_analytic_account_recurring_interval
 #: model:ir.model.fields,help:contract.field_account_analytic_contract_recurring_interval
 msgid "Repeat every (Days/Week/Month/Year)"
-msgstr ""
+msgstr "Ponovi svakih (dana/hefte/mjeseca/godine)"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_account_user_id
 msgid "Responsible"
-msgstr ""
+msgstr "Odgovoran"
 
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.account_analytic_account_recurring_form_form
@@ -542,18 +538,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_sequence
 #: model:ir.model.fields,field_description:contract.field_account_analytic_invoice_line_sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Sekvenca"
 
 #. module: contract
 #: model:ir.model.fields,help:contract.field_account_analytic_contract_line_sequence
 #: model:ir.model.fields,help:contract.field_account_analytic_invoice_line_sequence
 msgid "Sequence of the contract line when displaying contracts"
-msgstr ""
+msgstr "Sekvence linije ugovora pri prikazivanju ugovora"
 
 #. module: contract
 #: model:ir.ui.view,arch_db:contract.view_partner_form
 msgid "Show the contracts for this partner"
-msgstr ""
+msgstr "Prikaz ugovora za ovog partnera"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_specific_price
@@ -565,13 +561,13 @@ msgstr ""
 #: model:ir.model.fields,help:contract.field_account_analytic_account_recurring_rule_type
 #: model:ir.model.fields,help:contract.field_account_analytic_contract_recurring_rule_type
 msgid "Specify Interval for automatic invoice generation."
-msgstr ""
+msgstr "Navedite interval za automatsko generiranje računa."
 
 #. module: contract
 #: model:ir.model.fields,help:contract.field_account_analytic_account_recurring_invoicing_type
 #: model:ir.model.fields,help:contract.field_account_analytic_contract_recurring_invoicing_type
 msgid "Specify if process date is 'from' or 'to' invoicing date"
-msgstr ""
+msgstr "Navedite je li datum procesa 'od' ili 'do' datum fakturiranja"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_price_subtotal

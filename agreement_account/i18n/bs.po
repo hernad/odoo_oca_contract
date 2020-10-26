@@ -67,18 +67,18 @@ msgstr "Kreirano"
 #. module: agreement_account
 #: model:ir.ui.view,arch_db:agreement_account.agreement_search
 msgid "Customer"
-msgstr ""
+msgstr "Klijent"
 
 #. module: agreement_account
 #: model:ir.model.fields,field_description:agreement_account.field_agreement_out_invoice_ids
 #: model:ir.ui.view,arch_db:agreement_account.agreement_form
 msgid "Customer Invoices"
-msgstr ""
+msgstr "Izlazne fakture"
 
 #. module: agreement_account
 #: model:ir.model.fields,field_description:agreement_account.field_agreement_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Ime za prikaz"
 
 #. module: agreement_account
 #: model:ir.model.fields,field_description:agreement_account.field_agreement_id
@@ -88,7 +88,7 @@ msgstr "ID"
 #. module: agreement_account
 #: model:ir.model,name:agreement_account.model_account_invoice
 msgid "Invoice"
-msgstr ""
+msgstr "Faktura"
 
 #. module: agreement_account
 #: model:ir.model.fields,field_description:agreement_account.field_agreement___last_update
