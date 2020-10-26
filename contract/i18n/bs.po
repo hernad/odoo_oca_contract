@@ -301,7 +301,7 @@ msgstr ""
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_res_company_contract_pregenerate_days
 msgid "Days to prepare invoices"
-msgstr ""
+msgstr "Dana za pripremu faktura"
 
 #. module: contract
 #: model:ir.model.fields,field_description:contract.field_account_analytic_contract_line_name
@@ -425,7 +425,7 @@ msgstr "Posljednje ažuriranje na"
 #: model:ir.ui.view,arch_db:contract.account_analytic_account_recurring_form_form
 #: model:ir.ui.view,arch_db:contract.account_analytic_contract_view_form
 msgid "Legend (for the markers inside invoice lines description)"
-msgstr "Legenda (za marekere unutar opisa stavki fakture"
+msgstr "Legenda (za mareere unutar opisa stavki fakture)"
 
 #. module: contract
 #: selection:account.analytic.account,recurring_rule_type:0
