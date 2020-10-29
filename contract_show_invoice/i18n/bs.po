@@ -1,0 +1,60 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * contract_show_invoice
+#
+# Translators:
+# Bole <bole@dajmi5.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-26 08:44+0000\n"
+"PO-Revision-Date: 2020-10-28 14:14+0200\n"
+"Last-Translator: Ernad Husremović <hernad@bring.out.ba>, 2020\n"
+"Language-Team: Bosnian (https://www.transifex.com/odoo/teams/41243/bs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bs\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#. module: contract_show_invoice
+#: model:ir.ui.view,arch_db:contract_show_invoice.account_analytic_account_button_invoice
+msgid "<span class=\"o_stat_text\">Invoiced</span>"
+msgstr "<span class=\"o_stat_text\">Fakturisano</span>"
+
+#. module: contract_show_invoice
+#: model:ir.model,name:contract_show_invoice.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "Analitičko konto"
+
+#. module: contract_show_invoice
+#: model:ir.model.fields,field_description:contract_show_invoice.field_account_invoice_analytic_account_ids
+msgid "Contracts"
+msgstr "Ugovori"
+
+#. module: contract_show_invoice
+#: model:ir.model,name:contract_show_invoice.model_account_invoice
+msgid "Invoice"
+msgstr "Faktura"
+
+#. module: contract_show_invoice
+#: model:ir.actions.act_window,name:contract_show_invoice.act_analytic_invoices
+msgid "Invoices"
+msgstr "Fakture"
+
+#. module: contract_show_invoice
+#: model:ir.ui.view,arch_db:contract_show_invoice.account_analytic_account_button_invoice
+msgid "Invoices related with this contract"
+msgstr "Računi povezani sa ovim ugovorom"
+
+#. module: contract_show_invoice
+#: model:ir.model.fields,field_description:contract_show_invoice.field_account_analytic_account_total_invoiced
+msgid "Total Invoiced"
+msgstr "Sveukupno fakturisano"
+
+#. module: contract_show_invoice
+#: model:ir.ui.view,arch_db:contract_show_invoice.invoice_tree_show_total_untaxed
+msgid "Total Untaxed"
+msgstr "Sveukupno neoporezovano"
